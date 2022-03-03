@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px 152.3px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    min-width: 367px;
+    box-shadow: 0px 8px 20px 0px #f9f9f9;
+    z-index: 1;
+}
+article {
+    margin-left: 170px;
+    margin-right: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #eb9696}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+  background-color: rgb(12, 39, 128);
+}
+
+    @media only screen and (max-width: 1000px) {
+    body {
+        background-color: rgb(92, 38, 6);
+    }
+    li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px 50px;
+    text-decoration: none;
+}
+}
+</style>
+</head>
+<body>
+<font size="4">
+<div align="center"><a href="index.html"><img src="Logo.JPG" width="150" height="50" title="Chester INC."></a>
+<ul>
+  <li><a href="index.html">&#191;Qui&eacute;n soy?</a></li>
+  <li class="dropdown">
+  <a  class="dropbtn">Escuelas</a>
+  <div class="dropdown-content">
+    <a href="Primaria.html">Primaria</a>
+    <a href="Secundaria.html">Secundaria</a>
+    <a href="Prepa.html">Preparatoria</a>
+    <a href="Uni.html">Universidad</a>
+  </div>
+  </li>
+  <li><a href="Logros.html">Logros</a></li>
+  <li class="dropdown">
+  <a  class="dropbtn">Trabajos</a>
+  <div class="dropdown-content">
+    <a href="Panaderia.html">Panaderia</a>
+    <a href="TotalPlay.html">TotalPlay</a>
+    <a href="Lions.html">Lions</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a  class="dropbtn">Contactos</a>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/bryan.bautistaprado">Facebook</a>
+    <a href="https://www.instagram.com/chester179b/">Instagram</a>
+    <a href="https://twitter.com/Chester1792">Twitter</a>
+  </div>
+  </li>
+</ul>
+</font>
+<article>
+  <div align="center">
+  <img src="Prepa.JPG" width="350"  height="300" title="Bryan">
+  </div>
+  <div align="center">
+    <var><h3><p>CONALEP 252</p>
+      <p>Vicente M. Corona, El Espinal, 94330 Orizaba, Ver.</p>
+      <p><a href="https://conalepveracruz.edu.mx">Pagina Oficial</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/Conalep252Orizaba/?ref=page_internal">Facebook</a></p>
+      <p>De 2016 a 20019 estudie en Conalep 252, donde me titule de <a href="#">Profecional Tecnico Bachiller en Inform&aacute;tica</a></p></h3></var>
+  </div>
+</article>
+</body>
+</html>
